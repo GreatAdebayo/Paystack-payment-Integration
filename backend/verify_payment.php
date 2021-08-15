@@ -21,7 +21,7 @@ echo 'wayray';
     CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
     CURLOPT_CUSTOMREQUEST => "GET",
     CURLOPT_HTTPHEADER => array(
-      "Authorization: Bearer sk_test_9bc7c7d17ceb43c609ea9b0f40e4f48b5dde8527",
+      "Authorization: Bearer ",
       "Cache-Control: no-cache",
     ),
   ));

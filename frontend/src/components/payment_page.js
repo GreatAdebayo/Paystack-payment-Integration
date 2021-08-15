@@ -16,7 +16,7 @@ const Payment = () => {
      e.preventDefault(); 
      if(details.email && details.amount && details.firstName && details.lastName !== ''){
         let handler = window.PaystackPop.setup({
-            key: 'pk_test_2cae9d8b7a6ddd86baeeee57e44b2c8e2761da66', // Replace with your public key
+            key: '', // Replace with your public key
             email: details.email,
             amount: details.amount * 100,
             firstname:details.firstName,
